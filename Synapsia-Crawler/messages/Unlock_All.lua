@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SweetyHush/ScriptLib/main/Star%20Glitcher"))()

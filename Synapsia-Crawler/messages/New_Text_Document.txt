@@ -1,0 +1,9 @@
+game:GetService("UserInputService").InputBegan:Connect(function(input,process)
+    if not process and input.KeyCode == Enum.KeyCode.Q then
+        if game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed ~= 20 then
+            game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 20 then
+        else
+            game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 16 then
+        end
+    end
+end)

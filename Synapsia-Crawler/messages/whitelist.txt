@@ -1,0 +1,7 @@
+local whitelist = loadstring(game:HttpGet("https://pastebin.com/Jf5uxS0N", true))() --[[make a table with the names to whitelist]]
+for _, v in pairs(whitelist) do
+
+if game.Players.LocalPlayer.Name ~= v then
+print("not whitelisted")
+end
+end
