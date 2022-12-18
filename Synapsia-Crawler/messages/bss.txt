@@ -1,3 +1,0 @@
---Definition of "Old but Gold
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/arktzyt/test/main/DarkCyber2.0"))()
